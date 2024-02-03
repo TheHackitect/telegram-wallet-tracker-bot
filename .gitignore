@@ -1,0 +1,47 @@
+# Ignore compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore logs and temporary files
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore package manager files
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled Ruby files
+*.gem
+*.rbc
+
+# Ignore migrations
+*migrations/
